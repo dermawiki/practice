@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header h1 {
+    margin-left: 10px; /* 좌측 상단 정렬 */
+    float: left; /* 텍스트 좌측 정렬 */
+}
+
+nav {
+    margin-top: 20px; /* 네비게이션 바 상단 여유 */
+    text-align: center;
+    clear: both; /* 플로트 제거 */
+}
+
+nav a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: black; /* 링크 색상 */
+    margin: 0 10px;
+}
+nav a span {
+    color: #FF0000; /* 하이라이트 색상을 빨강으로 설정 */
+}
+
+.search-container {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 8px;
+    margin: 10px 5px;
+}
+
+.search-container p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #707070;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
